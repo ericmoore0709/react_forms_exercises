@@ -1,0 +1,22 @@
+.BoxForm {
+    align-items: center;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0.5em;
+    width: max-content;
+}
+
+.BoxForm > button {
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: .5rem;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
