@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import './NewBoxForm.css';
+import PropTypes from 'prop-types';
 
-const NewBoxForm = () => {
+const NewBoxForm = ({ addBox }) => {
 
     const INITIAL_DATA = {
         color: '#ffffff',
@@ -23,6 +24,7 @@ const NewBoxForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        addBox(formData);
     }
 
     return (
@@ -67,6 +69,10 @@ const NewBoxForm = () => {
             <button>Add Box</button>
         </form>
     )
+}
+
+NewBoxForm.propTypes = {
+    addBox: PropTypes.func.isRequired
 }
 
 export default NewBoxForm;

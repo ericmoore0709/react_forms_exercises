@@ -3,20 +3,30 @@
     background-color: beige;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-inline: auto;
+    margin-block: 2em;
     padding: 0.5em;
     width: max-content;
 }
 
-.BoxForm > button {
+.BoxForm>button {
     background-color: blue;
     border: 1px solid black;
     border-radius: .5rem;
     color: white;
+    margin-block: 1em;
 }
 
 .input-container {
     display: flex;
     justify-content: space-between;
-    margin: auto;
+    margin-block: .25em;
+}
+
+.input-container>label {
+    margin-right: .25em;
+}
+
+.input-container>input {
+    margin-left: .25em;
 }
