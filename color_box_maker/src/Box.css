@@ -2,3 +2,9 @@
     border: 1px solid black;
     margin: auto;
 }
+
+.Box>button {
+    background-color: red;
+    border: none;
+    color: white;
+}
