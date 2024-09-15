@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="input-container"
+    >
+      <label
+        for="task"
+      >
+        Task
+      </label>
+      <input
+        id="task"
+        name="task"
+        placeholder="Task..."
+        value=""
+      />
+    </div>
+    <button>
+      Add
+    </button>
+  </form>
+</DocumentFragment>
+`;
